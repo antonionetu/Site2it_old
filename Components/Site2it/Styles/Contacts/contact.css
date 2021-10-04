@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media screen and (min-width: 900px) {
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header{
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.199);
+    }
+
+    header>a{
+        color: black;
+    }
+
+    div#logo {
+        position: relative;
+        top: -16px;
+        display: inline-block;
+        right: -20px;
+        margin-bottom: -30px;
+        width: 26%;
+    }
+
+    div#logo > h1{
+        font-family: 'Open Sans';
+        font-size: 50px;
+        display: inline-block;
+        
+    }
+
+    div#logo > img{
+        width: 70px;
+        display: inline-block;
+        position: relative;
+        top: 20px;
+    }
+
+    div#wpp{
+        background-color: #074141;
+        margin-top: 70px;
+        width: 95%;
+        border-radius: 33px;
+        margin-left: 2.7%;
+        
+    }
+
+    img#wpp_banner{
+        height: 50%;
+        width: 50%;
+        border-radius: 33px;
+        margin-left: 2%;
+        display: inline-block;
+        margin-bottom: -53px;
+    }
+
+    a#wpp{
+        text-decoration: none;
+    }
+
+    div#texto{
+        display: inline-block;
+        position: relative;
+        right: -51%;
+        top: -150px;
+        width: 48%;
+    }
+
+    p#wpp1{
+        font-family: 'Open Sans';
+        color: white;
+        display: inline;
+        font-size: 140%;
+    }
+    p#wpp2{
+        font-family: 'Open Sans';
+        color: white;
+        position: relative;
+        display: inline;
+        font-size: 220%;
+        top: 5px;
+    }
+    
+    a#twt, div#twt, img#twt, div#insta, a#insta, img#insta, img#fb, img#ytb, a#fb, a#ytb{ display: inline;}
+    
+    img#twt{
+        border-radius: 33px;
+        margin-left: 5%;
+        margin-top: 2%;
+        width: 45%;
+    }
+
+    img#insta{
+        border-radius: 33px;
+        width: 33%;
+        margin-left: 9%;
+    }
+
+
+    img#fb{
+        border-radius: 33px;
+        width: 45%;
+        margin-left: 5%;
+        margin-top: 25px;
+    }
+
+    img#ytb{
+        border-radius: 33px;
+        width: 38%;
+        margin-left: 5%;
+    }
+
+    footer {
+        margin-top: 170px;
+        padding: 2%;
+        background-color: rgb(0, 68, 255);
+    }
+
+    img#insta2{
+        width: 4%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#fb2{
+        width: 4%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#twt2{
+        width: 4%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#ytb2{
+        width: 5%;
+        margin-bottom: -38px;
+        margin-right: 10px;
+    }
+
+    footer > h4{
+        font-family: 'Open Sans';
+        color: white;
+        margin-left: 87%;
+        position: relative;
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 899px) {
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header{
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.199);
+        margin-right: -7%;
+    }
+
+    div#logo {
+        position: relative;
+        top: -26px;
+        display: inline-block;
+        right: -65px;
+        margin-bottom: -70px;
+    }
+
+    div#logo > h1{
+        font-family: 'Open Sans';
+        font-size: 50px;
+        display: inline-block;
+    }
+
+    div#logo > img{
+        width: 58px;
+        display: inline-block;
+        position: relative;
+        top: 11px;
+    }
+
+    img#wpp_banner{
+        height: 50%;
+        width: 80%;
+        border-radius: 33px;
+        margin-left: 4%;
+        display: inline-block;
+        margin-top: 35px;
+        margin-bottom: -53px;
+    }
+
+    a#wpp{
+        text-decoration: none;
+        display: inline;
+    }
+
+    div#wpp{
+        display: inline;
+    }
+
+    div#texto{
+        display: none;
+    }
+
+    p#wpp1{
+        display: none;
+    }
+    p#wpp2{
+        display: none;
+    }
+    
+    a#twt, div#twt, img#twt, div#insta, a#insta, img#insta, img#fb, img#ytb, a#fb, a#ytb{ display: inline;}
+    
+    img#twt{
+        border-radius: 33px;
+        margin-left: 5%;
+        margin-top: 18%;
+        width: 79%;
+    }
+
+    img#insta{
+        border-radius: 33px;
+        width: 69%;
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+
+
+    img#fb{
+        border-radius: 33px;
+        width: 76%;
+        margin-left: 5%;
+        margin-top: 15px;
+    }
+
+    img#ytb{
+        border-radius: 33px;
+        width: 75%;
+        margin-left: 5%;
+        margin-top: 15px;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding: 2%;
+        background-color: rgb(0, 68, 255);
+        margin-right: -25px;
+        margin-right: -7%;
+    }
+
+    img#insta2{
+        width: 11%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#fb2{
+        width: 11%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#twt2{
+        width: 11%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#ytb2{
+        width: 12%;
+        margin-bottom: -38px;
+        margin-right: 10px;
+    }
+
+    footer > h4{
+        font-family: 'Open Sans';
+        color: white;
+        margin-left: 65%;
+        position: relative;
+        font-size: 85%;
+        margin-bottom: 0%;
+    }
+}

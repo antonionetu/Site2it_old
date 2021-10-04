@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media screen and (min-width: 900px) {
+
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header{
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.199);
+    }
+
+    div#logo {
+        position: relative;
+        top: -16px;
+        display: inline-block;
+        right: -20px;
+        margin-bottom: -30px;
+        width: 26%;
+    }
+
+    div#logo > h1{
+        font-family: 'Open Sans';
+        font-size: 50px;
+        display: inline-block;
+        
+    }
+
+    div#logo > img{
+        width: 70px;
+        display: inline-block;
+        position: relative;
+        top: 20px;
+    }
+
+    header > a{
+        display: inline;
+        color: black;
+    }
+
+    img#foto_contato{
+        display: inline;
+        width: 170px;
+        margin-bottom: -0.5%;
+        position: relative;
+        right: -57%;
+    }
+
+    body > main {
+        margin-block-start: 10px;
+        margin-block-end: 0;
+    }
+
+    main > h1 {
+        margin-block-start: 15px;
+        margin-block-end: 0px;
+    }
+
+    div#banner_principal{
+        background-color: #AADEEB;
+    }
+
+    div#banner_principal > img#banner_principal {
+        margin-left: 14%;
+        margin-top: 2%;
+        display: block;
+        width: 70%;
+    }
+
+    div#botoes{
+        margin-top: -5%;
+    }
+
+    div#botoes > a > h2#agendar {
+        margin-right: 12%;
+    }
+
+    div#botoes > a > h2 {
+        position: relative;
+        left: 31%;
+        padding: 0.6%;
+        font-family: 'Open Sans';
+        color: white;
+        display: inline;
+        background-color: #48759f;
+        border-radius: 10px;
+    }
+
+    div#botoes > a {
+        text-decoration: none;
+    }
+
+    img#cafe {
+        width: 39%;
+        margin-left: 5%;
+        margin-top: 5%;
+        display: inline-block;
+    }
+
+    div#xp > h3, p {
+        margin-top: -100px;
+        font-family: 'Open Sans';
+        display: inline;
+    }
+
+    div#xp > h3 {
+        font-size: 200%;
+        position: relative;
+        right: -35px;
+        top: -164px;
+        
+    }
+
+    div#xp > p {
+        font-weight: lighter;
+        position: relative;
+        top: -155px;
+        right: -49%;
+    }
+
+    div#qualidade{   
+        margin-bottom: 100px;
+    }
+
+    img#qualidade {
+        width: 20%;
+        display: inline-block;
+        position: relative;
+        right: -62%;
+        top: 65px;
+
+    }
+
+    div#text{
+        margin-left: 1%;
+    }
+
+    div#text > h3, p {
+        font-family: 'Open Sans';
+        display: inline;
+    }
+
+    div#text > h3 {
+        font-size: 210%;
+        font-family: 'Open Sans';
+        display: inline;
+        position: relative;
+        top: -70px;
+        margin-left: 14%;
+
+    }
+
+    div#text > p {
+        font-family: 'Open Sans';
+        display: inline;
+        position: relative;
+        top: -60px;
+        right: -15%;
+    }
+
+    footer {
+        padding: 2%;
+        background-color: rgb(0, 68, 255);
+    }
+
+    img#insta{
+        width: 4%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#fb{
+        width: 4%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#twt{
+        width: 4%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#ytb{
+        width: 5%;
+        margin-bottom: -38px;
+        margin-right: 10px;
+    }
+
+    footer > h4{
+        font-family: 'Open Sans';
+        color: white;
+        margin-left: 87%;
+        position: relative;
+        margin-bottom: 0%;
+    }
+
+}
+
+
+/*------------------------------CELULAR DISPLAY------------------------------*/
+
+
+@media screen and (max-width: 899px){
+
+    body{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header{
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.199);
+        margin-right: -7%;
+    }
+
+    div#logo {
+        position: relative;
+        top: -26px;
+        display: inline-block;
+        right: -65px;
+        margin-bottom: -70px;
+    }
+
+    div#logo > h1{
+        font-family: 'Open Sans';
+        font-size: 50px;
+        display: inline-block;
+    }
+
+    div#logo > img{
+        width: 58px;
+        display: inline-block;
+        position: relative;
+        top: 11px;
+    }
+
+    header > a{
+        display: inline;
+    }
+
+    img#foto_contato{
+        display: none;
+    }
+
+    body > main {
+        margin-block-start: 10px;
+        margin-block-end: 0;
+    }
+
+    h3{
+        font-family: 'Open Sans';
+        display: inline-block;
+    }
+
+    main > h1 {
+        margin-block-start: 15px;
+        margin-block-end: 0px;
+    }
+
+    div#banner_principal > img#banner_principal {
+        margin-top: 8%;
+        display: block;
+        width: 100%;
+    }
+
+    div#botoes{
+        margin-top: 4%;
+        margin-left: 1%;
+    }
+
+    div#botoes > a > h2#agendar {
+        margin-right: 2%;
+    }
+
+    div#botoes > a > h2 {
+        position: relative;
+        left: 5%;
+        padding: 1.5%;
+        font-family: 'Open Sans';
+        color: white;
+        display: inline;
+        background-color: #48759f;
+        border-radius: 26px;
+    }
+
+    div#botoes > a {
+        text-decoration: none;
+    }
+
+    img#cafe {
+        width: 40%;
+        margin-left: -2%;
+        margin-top: 5%;
+        display: inline-block;
+    }
+
+    div#xp {
+        margin-top: 50px;
+    }
+
+    div#xp > h3, p {
+        margin-top: -100px;
+        font-family: 'Open Sans';
+    }
+
+    div#xp > h3 {
+        font-size:4vw;
+        position: relative;
+        right: 1px;
+        top: -75px;
+        display: inline-block;
+    }
+
+    div#xp > p {
+        font-weight: lighter;
+        position: relative;
+        display: inline;
+        top: -70px;
+        right: -40%;
+        font-size: 85%; 
+    }
+
+    div#qualidade{   
+        margin-bottom: 100px;
+        margin-top: -80px;
+    }
+
+    img#qualidade {
+        width: 170px;
+        display: inline-block;
+        position: relative;
+        right: -51%;
+        top: 225px;
+    }
+
+    h3#qualidade{
+        margin-left: 3%;
+    }
+    p#qualidade{
+        position: relative;
+        left: 3%;
+    }
+
+    div#qualidade > h3, p {
+        font-family: 'Open Sans';
+        display: inline;
+    }
+
+    div#qualidade > h3 {
+        font-size: 110%;
+        font-family: 'Open Sans';
+        display: inline;
+        position: relative;
+        top: -102px;
+        margin-left: -38%;
+    }
+
+    div#qualidade > p {
+        font-family: 'Open Sans';
+        display: inline-block;
+        position: relative;
+        top: -85px;
+        font-size: 14px;
+        right: -3%;
+    }
+
+    footer {
+        padding: 2%;
+        background-color: rgb(0, 68, 255);
+        margin-right: -25px;
+        margin-right: -7%;
+        margin-top: 160px;
+    }
+
+    img#insta{
+            width: 11%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#fb{
+            width: 11%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#twt{
+            width: 11%;
+        margin-bottom: -40px;
+        margin-right: 10px;
+    }
+
+    img#ytb{
+            width: 12%;
+        margin-bottom: -38px;
+        margin-right: 10px;
+    }
+
+    footer > h4{
+        font-family: 'Open Sans';
+        color: white;
+        margin-left: 65%;
+        position: relative;
+        font-size: 85%;
+        margin-bottom: 0%;
+    }
+}
